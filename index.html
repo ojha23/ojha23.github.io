@@ -445,12 +445,27 @@
       <p><span class="glyphicon glyphicon-phone"></span> 9460140418</p>
       <p><span class="glyphicon glyphicon-envelope"></span> mirayakuteerudyog@gmail.com</p>
     </div>
-   <form action="https://formspree.io/praveen.ojha23@gmail.com"
-      method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
-</form> 
+<form id="contact-form" action="https://formspree.io/praveen.ojha23@gmail.com" method="post">
+    
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="Name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="Email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="Message" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+
+    </form>
+
 
    </div>
 </div>
